@@ -18,8 +18,9 @@
 	margin: 10px 0;
 }
 
-
-/*prima riga*/
+/*--------------*/
+/*--prima riga--*/
+/*--------------*/
 .row header {
 	height: 200px;
 }
@@ -29,7 +30,9 @@
 }
 
 
-/*seconda riga*/
+/*----------------*/
+/*--seconda riga--*/
+/*----------------*/
 .row .nav-main {
 	height: 400px;
 	width: 25%;
@@ -53,4 +56,11 @@
 	content: '';
 	display: table;
 	clear: both;
+}
+
+/*--------------*/
+/*--terza riga--*/
+/*--------------*/
+.row footer {
+	height: 140px;
 }
