@@ -14,14 +14,43 @@
 	border: 1px solid black;
 }
 
-.container .row {
+.row {
 	margin: 10px 0;
 }
 
-.container .row header {
+
+/*prima riga*/
+.row header {
 	height: 200px;
 }
 
-.container .row .nav-header {
+.row .nav-header {
 	height: 40px;
+}
+
+
+/*seconda riga*/
+.row .nav-main {
+	height: 400px;
+	width: 25%;
+	float: left;
+}
+
+.row article {
+	height: 200px;
+	width: 50%;
+	float: left;
+}
+
+.row aside {
+	height: 800px;
+	width: 25%;
+	float: left;
+}
+
+/*clearfix per dimensionare il contenitore dei float*/
+.row main::after {
+	content: '';
+	display: table;
+	clear: both;
 }
