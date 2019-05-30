@@ -5,7 +5,23 @@
 }
 
 .container {
-	width: 70%;
+	width: 90%;
 	margin: 10px auto;
-	border: 2px solid black;
+}
+
+/*Utilizzato provvisoriamente per vedere i blocchi*/
+.container * {
+	border: 1px solid black;
+}
+
+.container .row {
+	margin: 10px 0;
+}
+
+.container .row header {
+	height: 200px;
+}
+
+.container .row .nav-header {
+	height: 40px;
 }
