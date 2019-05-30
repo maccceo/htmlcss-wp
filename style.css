@@ -5,7 +5,7 @@
 }
 
 .container {
-	width: 90%;
+	width: 70%;
 	margin: 10px auto;
 }
 
@@ -18,11 +18,10 @@
 	margin: 10px 0;
 }
 
-/*--------------*/
+
 /*--prima riga--*/
-/*--------------*/
 .row header {
-	height: 200px;
+	height: 160px;
 }
 
 .row .nav-header {
@@ -30,37 +29,41 @@
 }
 
 
-/*----------------*/
 /*--seconda riga--*/
-/*----------------*/
 .row .nav-main {
-	height: 400px;
-	width: 25%;
+	height: 300px;
+	width: 22%;
 	float: left;
 }
 
 .row article {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0%);
 	height: 200px;
-	width: 50%;
-	float: left;
+	width: 47%;
 }
 
 .row aside {
-	height: 800px;
-	width: 25%;
-	float: left;
+	height: 600px;
+	width: 22%;
+	float: right;
 }
 
-/*clearfix per dimensionare il contenitore dei float*/
+.row main {
+	/*per poter posizionare sezione centrale*/
+	position: relative;
+}
+
+/*clearfix per dimensionare automaticamente il contenitore dei float*/
 .row main::after {
 	content: '';
 	display: table;
 	clear: both;
 }
 
-/*--------------*/
+
 /*--terza riga--*/
-/*--------------*/
 .row footer {
 	height: 140px;
 }
