@@ -33,6 +33,7 @@ verranno tolte quando ci saranno contenuti*/
 }
 
 
+
 /*--seconda riga--*/
 .row .nav-main {
 	height: 300px;
@@ -41,36 +42,31 @@ verranno tolte quando ci saranno contenuti*/
 }
 
 .row article {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%,0%);
 	height: 200px;
 	width: 47%;
+	float: left;
+	margin: 0 4.5%;
 }
 
-.row .aside-colomn {
+.row aside {
 	height: 600px;
 	width: 22%;
 	float: right;
 }
 
-.row .aside-colomn aside {
+.row aside section {
 	height: 30%;
 	width: 100%;
 	margin-bottom: 10px;
 }
 
-.row main {
-	/*per poter posizionare sezione centrale*/
-	position: relative;
-}
-
-/*clearfix per dimensionare automaticamente il contenitore dei float*/
 .row main::after {
+	/*clearfix per dimensionare automaticamente il contenitore dei float*/
 	content: '';
 	display: table;
 	clear: both;
 }
+
 
 
 /*--terza riga--*/
