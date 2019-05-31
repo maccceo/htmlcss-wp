@@ -1,7 +1,7 @@
 /*COSE DA SISTEMARE:
 	img montagna nell'header legarla all'h1
-	nav-header margini sx-dx automatici per riempire tutto il loro contenitore
-	nav-main allineare Orgainc Themes all'immagine
+	header-nav margini sx-dx automatici per riempire tutto il loro contenitore
+	main-nav allineare Organic Themes all'immagine
 */
 
 * {
@@ -85,6 +85,7 @@ body {
 .row li {
 	display: inline-block;
     margin:10px 10px;
+    /*DA RIVEDERE*/
 }
 
 .row li a {
@@ -109,6 +110,7 @@ body {
 .main-nav-title h5 {
 	display: inline;
 	font-size: 1.25rem;
+	/*DA ALLINEARE ALL'IMMAGINE*/
 }
 
 .main-nav-articles ul {
@@ -124,14 +126,13 @@ body {
 	color: limegreen;
 	font-size: 1rem;
 }
-/*-----------------------------*/
 
+/*-------------------------*/
 .row article {
 	height: 200px;
 	width: 48%;
 	float: left;
 	margin: 0 2%;
-
 }
 
 .row aside {
