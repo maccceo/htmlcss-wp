@@ -33,7 +33,7 @@ li a {
 	text-decoration: none;
 }
 
-/*conenitori della seconda e terza righe visibili*/
+/*conenitori dei testi*/
 .visibile {
 	background-color: white;
 	border-radius: 5px;
@@ -41,7 +41,7 @@ li a {
 
 
 
-/*--prima riga--*/
+/*---------PRIMA RIGA---------*/
 .header-row {
 	color: white;
 	text-transform: uppercase;
@@ -68,13 +68,13 @@ header {
 
 header h1 {
 	position: absolute;
-	top: 43%;
+	top: 22.5%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%,0%);
 	padding: 1px 6px;
 	border: 4px solid white;
 	font-size: 3rem;
-	letter-spacing: 5px;
+	letter-spacing: 6px;
 }
 
 header h2 {
@@ -99,12 +99,12 @@ header h2 {
 
 .header-nav li a {
 	color: white;
-	font-size: 0.7rem;
+	font-size: 0.72rem;
 }
 
 
 
-/*--seconda riga--*/
+/*--------SECONDA RIGA--------*/
 .main-nav {
 	width: 24%;
 	float: left;
@@ -132,10 +132,9 @@ header h2 {
 
 .main-nav-articles ul li a {
 	color: limegreen;
-	font-size: 1rem;
 }
 
-/*-------------------------*/
+/*++++++++++++++++*/
 article {
 	width: 48%;
 	float: left;
@@ -149,24 +148,30 @@ article section h3 {
 	margin-bottom: 25px;
 }
 
-article section p {
+.article-section-p {
 	line-height: 30px;
 }
 
-/*-------------------------*/
-.row aside {
-	height: 600px;
+/*++++++++++++++++*/
+aside {
 	width: 24%;
 	float: right;
 }
 
-.row aside section {
-	height: 30%;
-	width: 100%;
+aside section {
 	margin-bottom: 15px;
 }
 
-.row main::after {
+aside section h4,.aside-section-p {
+	padding: 15px;
+	line-height: 30px;
+}
+aside section h4 {
+	font-size: 1.2rem;
+}
+
+
+main::after {
 	/*clearfix per dimensionare automaticamente il contenitore dei float*/
 	content: '';
 	display: table;
@@ -175,7 +180,7 @@ article section p {
 
 
 
-/*--terza riga--*/
+/*---------TERZA RIGA---------*/
 .row footer {
 	height: 140px;
 	background-color: white;
