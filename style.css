@@ -84,7 +84,7 @@ body {
 
 .row li {
 	display: inline-block;
-    margin:10px 20px;
+    margin:10px 10px;
 }
 
 .row li a {
@@ -110,6 +110,20 @@ body {
 	display: inline;
 	font-size: 1.25rem;
 }
+
+.main-nav-articles ul {
+	margin: 10px 0;
+}
+}
+
+.main-nav-articles ul li{
+	margin: 20px 15px;
+}
+
+.main-nav-articles ul li a {
+	color: limegreen;
+	font-size: 1rem;
+}
 /*-----------------------------*/
 
 .row article {
@@ -117,6 +131,7 @@ body {
 	width: 48%;
 	float: left;
 	margin: 0 2%;
+
 }
 
 .row aside {
