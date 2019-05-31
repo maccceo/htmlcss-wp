@@ -27,7 +27,12 @@ verranno tolte quando ci saranno contenuti*/
 
 /*--prima riga--*/
 .row header {
+	background-color: white;
+	background-image: url("Resources/header.jpg");
+	background-position: center;
+	background-size: cover;
 	height: 160px;
+	margin: 7px;
 }
 
 .row .nav-header {
