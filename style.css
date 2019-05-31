@@ -1,6 +1,7 @@
 /*COSE DA SISTEMARE:
-	-img montagna nell'header legarla all'h1
-	-nav-header margini sx-dx automatici per riempire tutto il loro contenitore
+	img montagna nell'header legarla all'h1
+	nav-header margini sx-dx automatici per riempire tutto il loro contenitore
+	nav-main allineare Orgainc Themes all'immagine
 */
 
 * {
@@ -11,6 +12,7 @@
 
 body {
 	background-image: url("Resources/texture.png");
+	font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -32,7 +34,6 @@ body {
 
 /*--prima riga--*/
 .header-row {
-	font-family: 'Roboto', sans-serif;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
@@ -96,10 +97,20 @@ body {
 
 /*--seconda riga--*/
 .row .main-nav {
-	height: 300px;
 	width: 24%;
 	float: left;
 }
+
+.main-nav-title img {
+	display: inline;
+	height: 20px;
+	margin: 15px 5px;
+}
+.main-nav-title h5 {
+	display: inline;
+	font-size: 1.25rem;
+}
+/*-----------------------------*/
 
 .row article {
 	height: 200px;
