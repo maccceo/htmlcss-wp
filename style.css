@@ -24,6 +24,15 @@ body {
 	margin: 10px 0;
 }
 
+/*tolgo bulletpoint e sottolineature agli elenchi della pagina*/
+li {
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+}
+
 /*conenitori della seconda e terza righe visibili*/
 .visibile {
 	background-color: white;
@@ -39,7 +48,7 @@ body {
 	text-align: center;
 }
 
-.row header {
+header {
 	position: relative;
 	background-image: url("Resources/header.jpg");
 	background-position: center;
@@ -57,7 +66,7 @@ body {
 	transform: translate(-50%,0%);
 }
 
-.row header h1 {
+header h1 {
 	position: absolute;
 	top: 43%;
 	left: 50%;
@@ -68,7 +77,7 @@ body {
 	letter-spacing: 5px;
 }
 
-.row header h2 {
+header h2 {
 	position: absolute;
 	width: 100%;
 	top: 85%;
@@ -78,26 +87,25 @@ body {
 	letter-spacing: 2px;
 }
 
-.row .header-nav {
+.header-nav {
 	background-color: grey;
 }
 
-.row li {
+.header-nav li {
 	display: inline-block;
     margin:10px 10px;
     /*DA RIVEDERE*/
 }
 
-.row li a {
+.header-nav li a {
 	color: white;
 	font-size: 0.7rem;
-    text-decoration: none;
 }
 
 
 
 /*--seconda riga--*/
-.row .main-nav {
+.main-nav {
 	width: 24%;
 	float: left;
 }
@@ -107,6 +115,7 @@ body {
 	height: 20px;
 	margin: 15px 5px;
 }
+
 .main-nav-title h5 {
 	display: inline;
 	font-size: 1.25rem;
@@ -116,10 +125,9 @@ body {
 .main-nav-articles ul {
 	margin: 10px 0;
 }
-}
 
 .main-nav-articles ul li{
-	margin: 20px 15px;
+	margin: 18px;
 }
 
 .main-nav-articles ul li a {
@@ -128,13 +136,24 @@ body {
 }
 
 /*-------------------------*/
-.row article {
-	height: 200px;
+article {
 	width: 48%;
 	float: left;
 	margin: 0 2%;
+	padding: 20px;
 }
 
+article section h3 {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+article section p {
+	line-height: 30px;
+}
+
+/*-------------------------*/
 .row aside {
 	height: 600px;
 	width: 24%;
