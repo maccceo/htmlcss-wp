@@ -1,6 +1,5 @@
 /*COSE DA SISTEMARE:
 	img montagna nell'header legarla all'h1
-	header-nav margini sx-dx automatici per riempire tutto il loro contenitore
 	main-nav allineare Organic Themes all'immagine
 */
 
@@ -93,8 +92,8 @@ header h2 {
 
 .header-nav li {
 	display: inline-block;
-    margin:10px 10px;
-    /*DA RIVEDERE*/
+    margin:10px 0;
+    width: 13.9%;
 }
 
 .header-nav li a {
