@@ -181,7 +181,30 @@ main::after {
 
 
 /*---------TERZA RIGA---------*/
-.row footer {
-	height: 140px;
+footer {
 	background-color: white;
+	color: lightgrey;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+footer em {
+	display: inline-block;
+	margin: 22px;
+}
+
+footer hr {
+	margin: 0 3px;
+	border: 1px solid lightgrey;
+}
+
+footer i {
+	/*icone social*/
+	display: inline-block;
+	margin: 25px;
+	font-size: 2rem;
+}
+
+footer .fa-instagram {
+	margin: 30px 200px;
 }
